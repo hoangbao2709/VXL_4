@@ -2227,9 +2227,9 @@ void fsm_manual(){
  80010d0:	681b      	ldr	r3, [r3, #0]
  80010d2:	2b01      	cmp	r3, #1
  80010d4:	d104      	bne.n	80010e0 <fsm_manual+0xac>
-			SCH_Add_Task(setup_Led7SEG, 0, 50);
+			SCH_Add_Task(setup_Led7SEG, 3, 50);
  80010d6:	2232      	movs	r2, #50	; 0x32
- 80010d8:	2100      	movs	r1, #0
+ 80010d8:	2103      	movs	r1, #3
  80010da:	4854      	ldr	r0, [pc, #336]	; (800122c <fsm_manual+0x1f8>)
  80010dc:	f000 fb08 	bl	80016f0 <SCH_Add_Task>
 		}

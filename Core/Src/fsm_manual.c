@@ -88,7 +88,7 @@ void fsm_manual(){
 			Reset();
 			mode = 0;
 		}else if(mode == 1){
-			SCH_Add_Task(setup_Led7SEG, 0, 50);
+			SCH_Add_Task(setup_Led7SEG, 3, 50);
 		}
 	}
 
