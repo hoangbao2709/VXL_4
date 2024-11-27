@@ -106,6 +106,7 @@ int main(void)
 
   SCH_Add_Task(fsm_setting,0, 1);
   SCH_Add_Task(fsm_manual, 1, 50);
+  SCH_Add_Task(LED, 2, 50);
   while (1)
   {
 	  SCH_Dispath_Tasks();

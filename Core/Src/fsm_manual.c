@@ -74,7 +74,7 @@ void fsm_manual(){
 		mode++;
 		test_1 = 1;
 		if(mode == 4) {
-			SCH_Delete_Task(2);
+			SCH_Delete_Task(3);
 			if(prev_max_Red == prev_max_Green + prev_max_Yellow){
 				max_Red = prev_max_Red;
 				max_Green = prev_max_Green;

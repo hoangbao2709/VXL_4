@@ -1,6 +1,6 @@
-scheduler.c:15:6:SCH_Init	4	static
-scheduler.c:19:6:SCH_Add_Task	24	static
-scheduler.c:31:6:SCH_Update	16	static
-scheduler.c:42:6:SCH_Dispath_Tasks	16	static
-scheduler.c:56:9:SCH_Delete_Task	24	static
-scheduler.c:72:6:SCH_Report_Status	4	static
+scheduler.c:16:6:SCH_Init	4	static
+scheduler.c:20:6:SCH_Add_Task	24	static
+scheduler.c:32:6:SCH_Update	16	static
+scheduler.c:42:6:SCH_Dispath_Tasks	8	static
+scheduler.c:54:9:SCH_Delete_Task	24	static
+scheduler.c:70:6:SCH_Report_Status	4	static
